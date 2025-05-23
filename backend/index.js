@@ -1,7 +1,7 @@
 import express from 'express';
 import connectDB from './Config/server.js';
 import userRoutes from './Router/userRoutes.js';
-import shipRoutes from './Router/ShipRoutes.js';
+import shipRoutes from './Router/shipRoutes.js';
 import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config();

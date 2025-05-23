@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthProvider';
 import { useContext } from 'react';
+import { API_URL } from '../constant';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -13,7 +14,7 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:3000/login', { email, password });
+      const res = await axios.post(`${API_URL}/login`, { email, password });
       console.log(res.data)
       login(res.data.user, res.data.token);
       alert(`Welcome ${res.data.user.email}`);

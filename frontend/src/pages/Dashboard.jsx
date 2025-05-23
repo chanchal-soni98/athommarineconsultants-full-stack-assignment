@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { AuthContext } from "../context/AuthProvider";
 import { useEffect } from "react";
 import dummyData from '../data.json'; 
+import { API_URL } from "../constant";
 
 export default function Dashboard() {
   const { user, logout } = useContext(AuthContext);
@@ -11,7 +12,7 @@ export default function Dashboard() {
 
   const fetchShips = async (query = "") => {
     try {
-      const res = await fetch(`http://localhost:3000/getShip${query ? `?search=${query}` : ""}`);
+      const res = await fetch(`${API_URL}/getShip${query ? `?search=${query}` : ""}`);
       if (!res.ok) throw new Error("Failed to fetch");
       const data = await res.json();
       setShips(data);

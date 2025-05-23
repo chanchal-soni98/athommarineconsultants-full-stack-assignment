@@ -15,7 +15,6 @@ export default function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(`${API_URL}/login`, { email, password });
-      console.log(res.data)
       login(res.data.user, res.data.token);
       alert(`Welcome ${res.data.user.email}`);
       navigate('/dashboard');

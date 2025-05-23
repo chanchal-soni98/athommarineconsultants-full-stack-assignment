@@ -23,7 +23,6 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    console.log("user data", user?.email);
     fetchShips();
   }, []);
 
@@ -34,10 +33,7 @@ export default function Dashboard() {
     return () => clearTimeout(delayDebounce);
   }, [search]);
 
-  useEffect(() => {
-    console.log("user data", user?.email);
-  });
-
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <nav className="bg-blue-700 p-4 text-white flex justify-between items-center">

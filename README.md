@@ -1,9 +1,9 @@
 ﻿# fathommarineconsultants-full-stack-assignment
 
- 🔍 Project Overview
+ 🔍 # Project Overview
 Maritime Operations Dashboard enables user authentication and provides access to a personalized dashboard that displays marine vessel information. The application includes a secure login/signup system, a responsive UI, and a marine data integration feature.
 
-🛠 Tech Stack
+🛠 # Tech Stack
 Category	Tools Used
 Frontend	React, Tailwind CSS
 Backend	Node.js, Express.js
@@ -23,7 +23,8 @@ API Handling	Fetch/Axios, REST API
 
 ![Screenshot (426)](https://github.com/user-attachments/assets/3e36619e-a175-4cf2-82c8-ef27e7cdc7a0)
 
-setup instructions
+# setup instructions
+
 git clone https://github.com/chanchal-soni98/athommarineconsultants-full-stack-assignment.git
 cd athommarineconsultants-full-stack-assignment
 There are 2 folders frontend and backend

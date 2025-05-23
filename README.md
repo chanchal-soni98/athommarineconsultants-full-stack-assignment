@@ -23,7 +23,7 @@ Maritime Operations Dashboard enables user authentication and provides access to
 
 ![Screenshot (426)](https://github.com/user-attachments/assets/3e36619e-a175-4cf2-82c8-ef27e7cdc7a0)
 
-## setup instructions
+## Setup instructions
 
 ### Clone the repository
 git clone https://github.com/chanchal-soni98/athommarineconsultants-full-stack-assignment.git

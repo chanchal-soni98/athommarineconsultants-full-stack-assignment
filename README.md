@@ -31,15 +31,15 @@ git clone https://github.com/chanchal-soni98/athommarineconsultants-full-stack-a
 # Navigate into the project directory
 cd athommarineconsultants-full-stack-assignment
 
-# --- Backend Setup ---
-cd backend
-npm install
-npm start
+### Backend Setup  
+<sub>cd backend</sub>  
+<sub>npm install</sub>  
+<sub>npm start</sub>  
 
-# --- Frontend Setup ---
-cd ../frontend
-npm install
-npm run dev
+### Frontend Setup  
+<sub>cd ../frontend</sub>  
+<sub>npm install</sub>  
+<sub>npm run dev</sub> 
 
 This will start the frontend development server (usually runs on http://localhost:5173 if using Vite or http://localhost:3000 if using CRA).
 
